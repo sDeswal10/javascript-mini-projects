@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Form Validation</title>
+    <link rel="stylesheet" href="style.css">
+    <script
+      src="https://kit.fontawesome.com/c6638f2ee2.js"
+      crossorigin="anonymous"
+    ></script>
+</head>
+<body>
+    <div class="container">
+        <div class="form-box">
+            <form>
+                <i class="fa-regular fa-pen-to-square"></i>
+                <div class="form-input">
+                    <label for="contact-name">Full Name</label>
+                    <input type="text" placeholder="Enter your full name" id="contact-name" autocomplete="off"/>
+                    <span id="name-error"></span>
+                </div>                
+                <div class="form-input">
+                    <label for="contact-email">Email Id</label>
+                    <input type="email" placeholder="Enter your email address" id="contact-email" autocomplete="off"/>
+                    <span id="email-error"></span>
+                </div>                
+                <div class="form-input">
+                    <label for="contact-phone">Phone Number</label>
+                    <input type="number" placeholder="Enter your mobile number" id="contact-phone" autocomplete="off"/>
+                    <span id="phone-error"></span>
+                </div>                
+                <div class="form-input">
+                    <label for="contact-password">Password</label>
+                    <input type="password" placeholder="Enter strong password" id="contact-password" autocomplete="off"/>
+                    <span id="password-error"></span>
+                </div>                
+                <div class="form-input">
+                    <label for="contact-message">Your Message</label>
+                    <textarea rows="6" id="contact-message"></textarea>
+                    <span id="message-error"></span>
+                </div>
+                <button id="submit-btn">Submit</button>
+                <span class="submit-error"></span>            
+            </form>
+        </div>        
+    </div>
+<script src="script.js"></script>   
+</body>
+</html>

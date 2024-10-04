@@ -1,0 +1,30 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+body{
+    background: #764ba2;
+}
+.input-box{
+    width: 90%;
+    max-width: 400px;
+    background: #fff;
+    margin: 400px auto;
+    padding: 20px 10px;
+    border-radius: 10px;
+    display: flex;
+    align-items: center;
+}
+.input-box input{
+    border: none;
+    outline: none;
+    width: 100%;
+    font-size: 24px;
+}
+.input-box i{
+    font-size: 24px;
+    color: red;
+    cursor: pointer;
+}

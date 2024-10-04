@@ -1,0 +1,64 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+.container{
+    width: 100%;
+    min-height: 100vh;
+    padding-top: 4%;
+    padding-left: 10%;
+    background: linear-gradient(to bottom, #fdcbf1 0%, #fdcbf1 1%, #e6dee9 100%);
+    color: #fff;
+}
+.container h1{
+    font-size: 35px;
+    font-weight: 600;
+    display: flex;
+    align-items: center;
+}
+.container h1 img{
+    width: 60px;
+}
+.container button{
+    outline: none;
+    border: none;
+    border-radius: 40px;
+    padding: 15px 25px;
+    display: flex;
+    align-items: center;
+    font-size: 16px;
+    margin: 30px 0 20px;
+    background-image: linear-gradient(120deg, #fccb90 0%, #d57eeb 100%);
+    color: #fff;
+    cursor: pointer;
+    
+}
+.container button img{
+    width: 25px;
+    margin-right: 8px;
+
+}
+.notes-container .input-box{
+    width: 100%;
+    max-width: 500px;
+    min-height: 150px;
+    background: #fff;
+    color: #222;
+    font-size: 24px;
+    padding: 20px;
+    margin: 20px 0;
+    border-radius: 10px;
+    position: relative;
+    outline: none;
+    border: none;
+    margin-bottom: 20px;
+}
+.notes-container p img{
+    position: absolute;
+    right: 15px;
+    bottom: 15px;
+    width: 25px;
+    cursor: pointer;
+}
