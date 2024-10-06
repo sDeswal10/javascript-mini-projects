@@ -1,0 +1,105 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+.container{
+    width: 100%;
+    min-height: 100vh;
+    background: url(images/background.jpg);
+    background-size: cover;
+    background-position: center;
+    position: relative;
+}
+nav{
+    width: 100%;
+    padding: 10px 30px;
+    display: flex;
+    align-items: center;
+}
+nav img{
+    width: 200px;
+}
+nav ul{
+    flex: 1;
+    display: flex;
+    list-style: none;
+}
+nav ul li{
+    padding: 0 25px;
+}
+nav ul li a{
+    text-decoration: none;
+    color: #fff;
+    font-size: 20px;
+}
+nav button{
+    background: transparent;
+    border: 1px solid #fff;
+    outline: none;
+    padding: 10px 15px;
+    border-radius: 20px;
+    margin-right: 50px;
+    cursor: pointer;
+}
+nav button a{
+    text-decoration: none;
+    color: #fff;
+}
+.details{
+    padding: 50px 10% 0;
+}
+.details h1{
+    font-size: 65px;
+    font-weight: 800;
+}
+.details h1 span{
+    color: #FFD700;
+}
+.details p{
+    color: #e3e3e3;
+    font-size: 14px;
+    line-height: 50px;
+}
+.details button{
+    margin-top: 30px;
+    background: #FFD700;
+    color: #fff;
+    outline: none;
+    border: none;
+    border-radius: 25px;
+    padding: 15px 30px;
+    font-size: 20px;
+    cursor: pointer;
+}
+.coin-container{
+    position: absolute;
+    bottom: 200px;
+    right: 5%;
+    display: flex;
+    align-items: center;
+}
+.coin{
+    display: flex;
+    align-items: center;
+    font-style: 14px;
+    margin: 0 15px;
+    color: #FFD700;
+    border: 1px solid #fff;
+    padding: 20px 30px;
+    border-radius: 8px;
+}
+.coin img{
+    width: 60px;
+    margin-right: 10px;
+}
+.coin h2{
+    font-size: 24px;
+    color: #fff;
+    font-weight: 300;
+}
+.coin h3{
+    font-size: 18px;
+    color: #FFD700;
+}
